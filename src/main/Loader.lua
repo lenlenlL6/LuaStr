@@ -1,1 +1,1 @@
-
+luaStrLoader = true
