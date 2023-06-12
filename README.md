@@ -50,6 +50,7 @@ print(txt:count("apple", 10, 24))
 
 4. EndsWith
 - Parameter Values:
+
 | Parameter | Description |
 | --------- | ----------- |
 | value | Required. The value to check if the string ends with |
