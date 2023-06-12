@@ -70,17 +70,18 @@ print(txt:endsWith("my world."))
 | Parameter | Description |
 | tabsize | Optional. A number specifying the tabsize. Default tabsize is 8 |
 
-- Example: See the result using different tab sizes
+- Example: See the result using difference tab sizes
 ```lua
 local txt = "H\te\tl\tl\to"
 
 print(txt)
-
+-- Outout: H       e       l       l       o
 print(txt:expandTabs())
-
+-- Output: H        e        l        l        o
 print(txt:expandTabs(2))
-
+-- Output: H  e  l  l  o
 print(txt:expandTabs(4))
-
-
+-- Output: H    e    l    l    o
+print(txt:expandTabs(10))
+-- Output: H          e          l          l          o
 ```
