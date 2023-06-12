@@ -1,25 +1,31 @@
 ## LuaStr
 Libraries to make string manipulation easier in Lua
 
-## Split string
+
+## Wiki
+
+1. Capitalize
+- Parameter Values: *No parameters*
+- Example: The first character is converted to upper case, and the rest are converted to lower case
 ```lua
-require("LuaStr/src/main/Loader")
+local txt = "hI MoM"
 
-test = "hi.mom"
-
-for i in ipairs(test:split(".")) do
-  print(i)
-end
+print(txt:capitalize())
+-- Output: Hi mom
 ```
-## Without Downloading
+
+2. Center
+- Parameter:
+
+| Parameter | Description |
+| -------- | ----------- |
+| length | Required. The length of the returned string |
+| character | Optional. The character to fill the missing space on each side. Default is " " (space) |
+
+- Example: Using the letter "O" as the padding character
 ```lua
--- lua cURL
-loadstring(curl.easy{
-    url = 'url',
-    httpheader = {
-      "X-Test-Header1: Header-Data1",
-      "X-Test-Header2: Header-Data2",
-    },
-    writefunction = io.stderr -- use io.stderr:write()
-  }
-  :perform():close())()
+local txt = "banana"
+
+print(txt:center(20, "O"))
+-- Output: OOOOOOObananaOOOOOOO
+```
