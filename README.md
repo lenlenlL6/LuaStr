@@ -47,3 +47,19 @@ print(txt:count("apple", 10, 24))
 -- Output: 1
 
 ```
+
+4. EndsWith
+- Parameter Values:
+| Parameter | Description |
+| --------- | ----------- |
+| value | Required. The value to check if the string ends with |
+| start | Optional. An Integer specifying at which position to start the search |
+| end | Optional. An Integer specifying at which position to end the search |
+
+- Example: Check if the string ends with the phrase "my world."
+```lua
+local txt = "Hello, welcome to my world."
+
+print(txt:endsWith("my world."))
+-- Output: true
+```
