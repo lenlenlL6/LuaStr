@@ -107,3 +107,13 @@ local txt = "Company10"
 print(txt:isAlpha())
 -- Output: false
 ```
+
+8. IsDecimal
+- Parameter Values: *No parameter*
+- Example: Check if all the characters in a string are decimals (0-9)
+```lua
+local txt = "1234"
+
+print(txt:isDecimal())
+-- Output: true
+```
