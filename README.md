@@ -97,3 +97,13 @@ local txt = "Company 12"
 print(txt:isAlNum())
 -- Output: false
 ```
+
+7. IsAlpha
+- Parameter Values: *No parameter*
+- Example: Check if all the characters in the text is alphabetic
+```lua
+local txt = "Company10"
+
+print(txt:isAlpha())
+-- Output: false
+```
