@@ -87,3 +87,13 @@ print(txt:expandTabs(4))
 print(txt:expandTabs(10))
 -- Output: H          e          l          l          o
 ```
+
+6. IsAlNum
+- Parameter Values: *No parameters*
+- Example: Check if all the characters in the text is alphanumeric
+```lua
+local txt = "Company 12"
+
+print(txt:isAlNum())
+-- Output: false
+```
