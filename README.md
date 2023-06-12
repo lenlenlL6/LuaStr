@@ -64,3 +64,23 @@ local txt = "Hello, welcome to my world."
 print(txt:endsWith("my world."))
 -- Output: true
 ```
+
+5. ExpandTabs
+- Parameter Values:
+| Parameter | Description |
+| tabsize | Optional. A number specifying the tabsize. Default tabsize is 8 |
+
+- Example: See the result using different tab sizes
+```lua
+local txt = "H\te\tl\tl\to"
+
+print(txt)
+
+print(txt:expandTabs())
+
+print(txt:expandTabs(2))
+
+print(txt:expandTabs(4))
+
+
+```
