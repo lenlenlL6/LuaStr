@@ -67,6 +67,7 @@ print(txt:endsWith("my world."))
 
 5. ExpandTabs
 - Parameter Values:
+
 | Parameter | Description |
 | tabsize | Optional. A number specifying the tabsize. Default tabsize is 8 |
 
