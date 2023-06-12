@@ -29,3 +29,21 @@ local txt = "banana"
 print(txt:center(20, "O"))
 -- Output: OOOOOOObananaOOOOOOO
 ```
+
+3. Count
+- Parameter Values:
+
+| Parameter | Description |
+| --------- | ----------- |
+| value | Required. A String. The string to value to search for |
+| start | Optional. An Integer. The position to start the search. Default is 1 |
+| end | Optional. An Integer. The position to end the search. Default is the end of the string |
+
+- Example: Search from position 10 to 24
+```lua
+local txt = "I love apples, apple are my favorite fruit"
+
+print(txt:count("apple", 10, 24))
+-- Output: 1
+
+```
