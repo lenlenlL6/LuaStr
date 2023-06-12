@@ -69,6 +69,7 @@ print(txt:endsWith("my world."))
 - Parameter Values:
 
 | Parameter | Description |
+| --------- | ----------- |
 | tabsize | Optional. A number specifying the tabsize. Default tabsize is 8 |
 
 - Example: See the result using difference tab sizes
