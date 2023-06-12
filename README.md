@@ -15,7 +15,7 @@ print(txt:capitalize())
 ```
 
 2. Center
-- Parameter:
+- Parameter Values:
 
 | Parameter | Description |
 | -------- | ----------- |
